@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SliderActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerActivitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/circleIndicatorActivitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNextSliderActivitySlider"
+        android:layout_marginBottom="20dp"
+        app:ci_drawable="@drawable/circle_green"
+        app:ci_drawable_unselected="@drawable/circle_gray"
+        app:ci_height="10dp"
+        app:ci_width="10dp" />
+
+    <TextView
+        android:id="@+id/txtNextSliderActivitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/box_radius_green"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Get Start"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_large"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
