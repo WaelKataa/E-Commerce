@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">E-Commers</string>
+
+    <string name="lite_mode">كاشف</string>
+    <string name="dark_mode">غامق</string>
+    <string name="language">اللغة</string>
+    <string name="welcome_to_our_groshop">Welcome to our Groshop</string>
+    <string name="contrary_to_popular_belief_lorem_ipsum_is_not_simply_rand">Contrary to popular belief, Lorem Ipsum is not simply rand</string>
+    <string name="sign_in_your_account">تسجيل الدخول بحسابك</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الانجليزية</string>
+</resources>

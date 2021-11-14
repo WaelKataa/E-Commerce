@@ -9,19 +9,32 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPagerActivitySlider"
         android:layout_width="match_parent"
+        android:padding="20dp"
         android:layout_height="match_parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <me.relex.circleindicator.CircleIndicator
-        android:id="@+id/circleIndicatorActivitySlider"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/txtNumberSliderActivitySlider"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/txtNextSliderActivitySlider"
+        android:layout_above="@id/txtNextSliderActivitySlider"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        app:ci_drawable="@drawable/circle_green"
-        app:ci_drawable_unselected="@drawable/circle_gray"
-        app:ci_height="10dp"
-        app:ci_width="10dp" />
+        android:fontFamily="@font/poppins_regular"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small" />
+
+    <!--    <me.relex.circleindicator.CircleIndicator-->
+    <!--        android:id="@+id/circleIndicatorActivitySlider"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_above="@+id/txtNextSliderActivitySlider"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        app:ci_drawable="@drawable/circle_green"-->
+    <!--        app:ci_drawable_unselected="@drawable/circle_gray"-->
+    <!--        app:ci_height="10dp"-->
+    <!--        app:ci_width="10dp" />-->
 
     <TextView
         android:id="@+id/txtNextSliderActivitySlider"

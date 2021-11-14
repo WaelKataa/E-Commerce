@@ -8,7 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ECommerce">
+        android:theme="@style/Theme.Light">
+        <activity
+            android:name=".activities.ChoseLoginActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.SliderActivity"
             android:exported="false" />
